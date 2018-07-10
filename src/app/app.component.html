@@ -1,0 +1,48 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  
+</div>
+
+<hr>
+<div id="demo">
+<div class="container">
+  <h2>Hover Rows</h2>
+  <p>The counter:{{counter}}</p>            
+  <div class="container">
+  	<ul id="all_messages">
+  		<li>Nothing</li>
+  	</ul>
+  </div>
+  <div class="wrapper">
+  	<div class="row">
+  	<div class="col-md-3">
+  	 <div class="form-group ">
+  		<input #user type="text" class="form-control" placeholder="Enter the username">
+  	 </div>
+  	</div>
+  	<div class="col-md-2">
+  	 <div class="form-group ">
+  		<select #room class="form-control" placeholder="Select the room" (change)="changeRoom(room.value)">
+  			<option value="music">Music</option>
+  			<option value="sports">Sports</option>
+  			<option value="movies">Movies</option>
+  		</select>
+  	 </div>
+  	</div>
+  	<div class="col-md-5">
+  	 <div class="form-group ">  		
+  		<textarea #message class="form-control" placeholder="Enter the message"></textarea>
+  	 </div>  	    
+  	</div>
+  	<div class="col-md-2">
+  	 <div class="form-group">
+  	 	<button type="button" class="btn btn-success" (click)="sendMessage(user.value, message.value, room.value)">Send</button>
+  	 </div>
+  	</div>
+  </div>
+  </div>
+</div>
+</div>
