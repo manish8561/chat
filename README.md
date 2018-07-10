@@ -4,18 +4,20 @@
 #Description
 <p>This Chat Application includes socket.io and multiple room joining.</p>
 <p>
-Requirements:
-- Install nodejs, express, and angular 6 with cli.
-- Install socket.io and socket.io-client for chat through socket.
+Requirements:<br>
+- Install nodejs, express, and angular 6 with cli.<br>
+- Install socket.io and socket.io-client for chat through socket.<br>
+</p>
 
-Reference Links:
-install angular, socket.io socket.io-client modules first
-https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
-https://material.angular.io/guide/getting-started
-https://www.youtube.com/watch?v=x2_bcCZg8vQ
-https://www.npmjs.com/package/socket.io
-https://socket.io/get-started/chat/
-https://socket.io/docs/rooms-and-namespaces/
+<p>
+Reference Links:<br>
+install angular, socket.io socket.io-client modules first<br>
+https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm<br>
+https://material.angular.io/guide/getting-started<br>
+https://www.youtube.com/watch?v=x2_bcCZg8vQ<br>
+https://www.npmjs.com/package/socket.io<br>
+https://socket.io/get-started/chat/<br>
+https://socket.io/docs/rooms-and-namespaces/<br>
 </p>
 
 <p>
